@@ -50,7 +50,7 @@
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-top: 600px;
+    padding-top: 100px;
 }
 .my_photo{
     /*width: 200px;*/
@@ -67,18 +67,24 @@
 }
 
 .my_car{
-margin: 20px; 
-border: 1px solid black;
+margin: 30px; 
+/*border: 1px solid black;*/
 float:right;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-height: 300px;
-width: 300px;
+/*height: 300px;
+width: 300px;*/
  
 }
 
 .photo-block{
     border-bottom: 1px black solid;
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
 }
 
 .model{
@@ -91,6 +97,33 @@ width: 300px;
     background-color: rgba(11, 6, 78, .60);
     /* opacity: 0.2; */
 }
-.cube{
-    border: 1px solid black;
+
+
+.h2_main{
+    text-transform: uppercase;
+    color: rgb(104, 105, 104);
+    text-align: center;
+}
+
+
+.line{
+    width: 185px;
+    height: 2px;
+    background-color: blueviolet;
+    margin-left: 855px;
+    opacity: 80%;
+}
+
+.test_test{
+    width: 400px;
+    height: 200px;
+    margin-top: -50px;
+    border: 1px black solid;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+wrapper{
+    margin-top: -50px;
+    
 }
